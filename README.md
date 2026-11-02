@@ -1,6 +1,6 @@
 # 李思达的个人主页
 
-面向 GitHub Pages 的静态学术主页，无需安装依赖或构建。直接打开 `index.html` 即可预览。
+独立的个人学术网站，使用 GitHub 仓库保存源文件，由 GitHub Pages 托管；不是 GitHub 个人资料页或 README。无需安装依赖或构建。直接打开 `index.html` 即可预览。
 
 ## 发布
 
@@ -19,7 +19,11 @@ GitHub 官方说明：https://docs.github.com/en/pages/quickstart
 - `script.js`：论文数据、英文切换和 BibTeX 引用交互；修改论文后应同步更新 HTML 中的中文论文内容。
 - `style.css`：排版与手机、打印样式。
 - `assets/sida-li.jpg`：个人照片。
+- `assets/ornament.webp`：Owen Jones 馆藏图版，用于页眉与浅色页边。
+- `assets/*.webp`：从对应论文项目资料取得的预览图；出处见 [图片来源](assets/SOURCES.md)。
 
 页面默认中文；点击 English 可切换英文。论文链接指向 arXiv、出版社或项目页面。浏览器打印时会展开其他论文。
 
-排版参考 [Jon Barron 的学术主页](https://github.com/jonbarron/jonbarron.github.io)，并针对中文和手机阅读调整。
+排版参考 [Jon Barron 的学术主页](https://github.com/jonbarron/jonbarron.github.io)，并针对中文和手机阅读调整。案例调研包括 [awesome-github-profiles](https://github.com/EddieHubCommunity/awesome-github-profiles)，采用独立网页结构与页内导航。
+
+背景使用大都会艺术博物馆标注为公有领域的 Owen Jones《装饰的法则》（1868）图版，配色取自原图的蓝、赭与纸色。图片没有经过生成式修改。正文保持安静的阅读区域；页面没有自动播放或滚动动画。
