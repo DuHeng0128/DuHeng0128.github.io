@@ -32,11 +32,13 @@ const papers = [
     "paper": "https://arxiv.org/abs/2610.13152",
     "code": "https://github.com/DuHeng0128/TQS",
     "bib": "@article{li2026quality,\n  title={Quality, Not Just Outcome: A Structural Scoring Framework for Selecting Coding-Agent Trajectories for Supervised Fine-Tuning},\n  author={Li, Sida and Liu, Yuanxin and Li, Shicheng and Yao, Linli and Sun, Xu and Bai, Haoli and Li, Xiao-Hui},\n  journal={arXiv preprint arXiv:2610.13152},\n  year={2026},\n  url={https://arxiv.org/abs/2610.13152}\n}",
-    "image": "assets/tqs.webp",
+    "image": "assets/tqs-main.webp",
     "imageAlt": [
       "TQS：成功轨迹的结构化质量评分",
       "TQS structural trajectory quality scoring"
-    ]
+    ],
+    "imageWidth": 1440,
+    "imageHeight": 842
   },
   {
     "id": "adac",
@@ -69,11 +71,13 @@ const papers = [
     "paper": "https://arxiv.org/abs/2610.13184",
     "code": "https://github.com/DuHeng0128/AdaC-GRPO",
     "bib": "@article{li2026adac,\n  title={AdaC-GRPO: Towards Mastering Long-Horizon Visual Sudoku Puzzles via Adaptive Curriculum Learning},\n  author={Li, Sida and Liu, Yuanxin and Yao, Linli and Li, Shicheng and Sun, Xu and Bai, Haoli and Li, Xiao-Hui},\n  journal={arXiv preprint arXiv:2610.13184},\n  year={2026},\n  url={https://arxiv.org/abs/2610.13184}\n}",
-    "image": "assets/adac.webp",
+    "image": "assets/adac-main.webp",
     "imageAlt": [
       "AdaC-GRPO：视觉数独难度分组与自适应课程",
       "AdaC-GRPO visual Sudoku and adaptive curriculum"
-    ]
+    ],
+    "imageWidth": 1440,
+    "imageHeight": 797
   },
   {
     "id": "ge",
@@ -106,11 +110,13 @@ const papers = [
     "paper": "https://doi.org/10.1016/j.eswa.2025.129649",
     "code": "https://github.com/codepassionor/T2I_Adapter",
     "bib": "@article{he2026geadapter,\n  title={GE-adapter: A general and efficient adapter for enhanced video editing with pretrained text-to-image diffusion models},\n  author={He, Yangfan and Li, Sida and Li, Kun and Wang, Jianhui and Li, Binxu and Shi, Tianyu and Xin, Yi and Li, Keqin and Yin, Jun and Zhang, Miao and Wang, Xueqian},\n  journal={Expert Systems with Applications},\n  volume={298},\n  pages={129649},\n  year={2026},\n  doi={10.1016/j.eswa.2025.129649}\n}",
-    "image": "assets/ge.webp",
+    "image": "assets/ge-method.webp",
     "imageAlt": [
-      "GE-Adapter 视频编辑结果",
-      "GE-Adapter video editing results"
-    ]
+      "GE-Adapter 整体方法框架",
+      "GE-Adapter method overview"
+    ],
+    "imageWidth": 1440,
+    "imageHeight": 695
   },
   {
     "id": "camera",
@@ -136,7 +142,14 @@ const papers = [
       "结合轨迹信息研究多模态大模型的相机运动理解。",
       "Camera motion understanding for multimodal large language models using trajectory information."
     ],
-    "paper": "https://doi.org/10.1109/ICASSP55912.2026.11462312"
+    "paper": "https://doi.org/10.1109/ICASSP55912.2026.11462312",
+    "image": "assets/camera-method.webp",
+    "imageWidth": 1395,
+    "imageHeight": 616,
+    "imageAlt": [
+      "轨迹增强慢感知与慢到快蒸馏方法框架",
+      "Trajectory-enhanced slow perception and slow-to-fast distillation"
+    ]
   },
   {
     "id": "timechat",
@@ -172,11 +185,13 @@ const papers = [
     "paper": "https://arxiv.org/abs/2504.17343",
     "code": "https://github.com/yaolinli/TimeChat-Online",
     "project": "https://timechat-online.github.io/",
-    "image": "assets/timechat.webp",
+    "image": "assets/timechat-method.webp",
     "imageAlt": [
-      "TimeChat-Online 的流式视频理解方法",
-      "TimeChat-Online streaming video understanding"
-    ]
+      "TimeChat-Online 差分 Token 丢弃方法",
+      "TimeChat-Online differential token dropping method"
+    ],
+    "imageWidth": 1440,
+    "imageHeight": 928
   },
   {
     "id": "survey",
@@ -205,11 +220,13 @@ const papers = [
       "A survey of token compression in multimodal LLMs and its efficiency–performance trade-offs."
     ],
     "paper": "https://doi.org/10.36227/techrxiv.176823010.07236701/v1",
-    "image": "assets/survey.webp",
+    "image": "assets/survey-fig1.webp",
     "imageAlt": [
-      "多模态 Token 压缩综述的分类图",
-      "Taxonomy from the multimodal token compression survey"
-    ]
+      "Token Compression 综述 Fig. 1：代表方法的时间线",
+      "Token compression survey, Fig. 1: timeline of representative methods"
+    ],
+    "imageWidth": 1440,
+    "imageHeight": 686
   },
   {
     "id": "mdanet",
@@ -238,11 +255,13 @@ const papers = [
       "Multi-stage domain adaptation for generalizable low-light image enhancement."
     ],
     "paper": "https://www.sciencedirect.com/science/article/pii/S0925231225002449",
-    "image": "assets/mdanet.webp",
+    "image": "assets/mdanet-method.webp",
     "imageAlt": [
-      "MDANet 低光图像增强对比",
-      "MDANet low-light image enhancement comparison"
-    ]
+      "MDANet 多阶段领域自适应框架",
+      "MDANet multi-stage domain adaptation framework"
+    ],
+    "imageWidth": 1440,
+    "imageHeight": 1198
   },
   {
     "id": "prompt",
@@ -264,7 +283,14 @@ const papers = [
       "利用共享与逐帧 Prompt Token，以较低训练成本改善视频编辑的一致性。",
       "Shared and frame-specific prompt tokens improve consistency in video editing with a small training budget."
     ],
-    "paper": "https://openreview.net/forum?id=4bPH07bP4A"
+    "paper": "https://openreview.net/forum?id=4bPH07bP4A",
+    "image": "assets/prompt-method.webp",
+    "imageWidth": 1390,
+    "imageHeight": 618,
+    "imageAlt": [
+      "Prompt Adaptor 视频编辑方法框架",
+      "Prompt Adaptor video editing framework"
+    ]
   }
 ];
 
@@ -285,7 +311,7 @@ function renderPapers(){
   papers.forEach(paper=>{
     const article=element('article',paper.image?'paper':'paper no-thumb');article.id='paper-'+paper.id;
     const content=element('div','paper-content');
-    if(paper.image){const thumbnail=externalLink('',paper.image);thumbnail.className='paper-thumb';thumbnail.setAttribute('aria-label',language==='zh'?'查看论文配图：'+paper.short:'View figure: '+paper.short);const image=element('img');image.src=paper.image;image.alt=paper.imageAlt[index];image.loading='lazy';image.decoding='async';image.width=1200;image.height=800;thumbnail.append(image);article.append(thumbnail);}
+    if(paper.image){const thumbnail=externalLink('',paper.image);thumbnail.className='paper-thumb';thumbnail.setAttribute('aria-label',language==='zh'?'查看论文配图：'+paper.short:'View figure: '+paper.short);const image=element('img');image.src=paper.image;image.alt=paper.imageAlt[index];image.loading='lazy';image.decoding='async';image.width=paper.imageWidth;image.height=paper.imageHeight;thumbnail.append(image);article.append(thumbnail);}
     const title=element('h3');title.append(externalLink(paper.title,paper.paper));
     const authors=element('p','authors');
     paper.authors.forEach((name,i)=>{if(i)authors.append(document.createTextNode(', '));authors.append(name==='Sida Li'?element('strong','',name):document.createTextNode(name));});

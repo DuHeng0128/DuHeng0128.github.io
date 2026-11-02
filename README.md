@@ -22,7 +22,7 @@ GitHub 官方说明：https://docs.github.com/en/pages/quickstart
 - `assets/ornament.webp`：Owen Jones 馆藏图版，用于页眉与浅色页边。
 - `assets/*.webp`：从对应论文项目资料取得的预览图；出处见 [图片来源](assets/SOURCES.md)。
 
-页面默认中文；点击 English 可切换英文。论文链接指向 arXiv、出版社或项目页面。浏览器打印时会展开其他论文。
+页面默认中文；点击 English 可切换英文。论文链接指向 arXiv、出版社或项目页面。其他论文默认展开，读者可手动收起。所有论文使用原论文主图或方法图，按原图比例显示；学生工作按时间倒序放在联系之前。
 
 排版参考 [Jon Barron 的学术主页](https://github.com/jonbarron/jonbarron.github.io)，并针对中文和手机阅读调整。案例调研包括 [awesome-github-profiles](https://github.com/EddieHubCommunity/awesome-github-profiles)，采用独立网页结构与页内导航。
 

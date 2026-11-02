@@ -18,11 +18,15 @@ Owen Jones，*The Grammar of Ornament*（第三版，1868），「Nineveh and Pe
 
 | 页面文件 | 原始出处 |
 | --- | --- |
-| `tqs.webp` | [TQS 项目 overview.png](https://github.com/DuHeng0128/TQS/blob/main/assets/overview.png) |
-| `adac.webp` | [AdaC-GRPO 项目 overview.png](https://github.com/DuHeng0128/AdaC-GRPO/blob/main/assets/overview.png) |
-| `ge.webp` | [GE-Adapter 项目 timestep.png](https://github.com/codepassionor/T2I_Adapter/blob/main/assert/timestep.png) |
-| `timechat.webp` | [TimeChat-Online 项目 teaser.png](https://timechat-online.github.io/static/images/teaser.png)，[项目页](https://timechat-online.github.io/) |
-| `survey.webp` | [Linli Yao 主页的综述配图](https://yaolinli.github.io/assets/img/paper/mllm-survey.png) |
-| `mdanet.webp` | [MDANet 项目 head.jpg](https://miaorain.github.io/MDANet.github.io/head.jpg) |
+| `tqs-main.webp` | [原论文 Fig. 1](https://arxiv.org/html/2610.13152v1#S1.F1)，结构化评分主图 |
+| `adac-main.webp` | [原论文 Fig. 1](https://arxiv.org/html/2610.13184v1#S1.F1)，自适应课程学习主图 |
+| `ge-method.webp` | 李思达提供的 GE-Adapter 方法框架截图；[论文](https://doi.org/10.1016/j.eswa.2025.129649) |
+| `prompt-method.webp` | 李思达提供的 Prompt Adaptor 方法框架截图；[论文](https://openreview.net/forum?id=4bPH07bP4A) |
+| `camera-method.webp` | 李思达提供的相机运动论文 PDF，第 2 页 Fig. 1 方法框架；[论文](https://doi.org/10.1109/ICASSP55912.2026.11462312) |
+| `timechat-method.webp` | [TimeChat-Online 差分 Token 丢弃方法图](https://timechat-online.github.io/static/images/model.png) |
+| `survey-fig1.webp` | [作者公开的综述 PDF](https://github.com/yaolinli/MLLM-Token-Compression/blob/main/Towards%20Efficient%20Multimodal%20Large%20Language%20Models%20-%20A%20Survey%20on%20Token%20Compression%20-%20v2512.pdf)，第 2 页 Fig. 1 方法发展时间线 |
+| `mdanet-method.webp` | [MDANet 整体方法框架](https://miaorain.github.io/MDANet.github.io/framework_all.png) |
+
+PDF 图版按图形边界提取，不包含页眉、正文或图注。预览图保留原图比例，未重绘论文内容。
 
 个人照片由李思达提供。学术论文条目的排版参考 [Jon Barron 的学术主页](https://github.com/jonbarron/jonbarron.github.io)；视觉案例调研参考 [awesome-github-profiles](https://github.com/EddieHubCommunity/awesome-github-profiles)，未使用 GitHub README 作为网页载体。
