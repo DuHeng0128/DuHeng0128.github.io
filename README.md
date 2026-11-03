@@ -1,7 +1,5 @@
 # 李思达的个人主页
 
-独立的个人学术网站，使用 GitHub 仓库保存源文件，由 GitHub Pages 托管；不是 GitHub 个人资料页或 README。无需安装依赖或构建。直接打开 `index.html` 即可预览。
-
 ## 发布
 
 1. 在 `DuHeng0128` 账号下创建公开仓库 `DuHeng0128.github.io`。
