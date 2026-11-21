@@ -16,7 +16,7 @@ const papers = [
       "Haoli Bai",
       "Xiao-Hui Li"
     ],
-    "venue": "Findings of EMNLP 2026",
+    "venue": "EMNLP 2026",
     "role": [
       "第一作者",
       "First author"
@@ -55,7 +55,7 @@ const papers = [
       "Haoli Bai",
       "Xiao-Hui Li"
     ],
-    "venue": "Findings of EMNLP 2026",
+    "venue": "EMNLP 2026",
     "role": [
       "第一作者",
       "First author"
